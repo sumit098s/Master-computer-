@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master Computer - Basic Computer, MS Office, Tally और कंप्यूटर शिक्षा के लिए सीखने की वेबसाइट।">
+  <title>Master Computer | Learn Computer Skills</title>
+  <style>
+    :root{--navy:#102a43;--blue:#1769aa;--cyan:#21b6c7;--light:#f2f7fb;--ink:#183044}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    header{background:linear-gradient(120deg,var(--navy),var(--blue));color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+    .brand{font-size:1.35rem;font-weight:800;letter-spacing:.4px}
+    nav{display:flex;gap:18px;flex-wrap:wrap} nav a{color:white;text-decoration:none;font-weight:600}
+    nav a:hover{text-decoration:underline}
+    .hero{padding:72px 6%;background:linear-gradient(120deg,#e9f6ff,#f3fcfd);display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center}
+    .hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.15;margin:0 0 16px;color:var(--navy)}
+    .hero p{font-size:1.1rem;max-width:650px}
+    .btn{display:inline-block;background:var(--blue);color:white;padding:12px 20px;border-radius:9px;text-decoration:none;font-weight:700;margin:8px 8px 0 0}
+    .btn.alt{background:var(--cyan);color:#062c3a}
+    .hero-art{background:white;border-radius:22px;padding:28px;text-align:center;box-shadow:0 12px 35px #173c5b18}
+    .hero-art .emoji{font-size:5rem}
+    section{padding:55px 6%}
+    .section-title{text-align:center;margin:0 0 10px;color:var(--navy);font-size:2rem}
+    .sub{text-align:center;color:#587083;margin:0 auto 30px;max-width:700px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{border:1px solid #dfebf2;border-radius:15px;padding:22px;background:white;box-shadow:0 5px 18px #12334b0a}
+    .card .icon{font-size:2rem}.card h3{margin:8px 0;color:var(--navy)}
+    .soft{background:var(--light)}
+    .about{max-width:850px;margin:auto;text-align:center}
+    .contact{max-width:650px;margin:auto;background:white;border-radius:16px;padding:25px;box-shadow:0 8px 25px #102a4312}
+    label{display:block;font-weight:700;margin:12px 0 5px}
+    input,textarea{width:100%;padding:12px;border:1px solid #cbd9e2;border-radius:8px;font:inherit}
+    button{border:0;cursor:pointer;font:inherit}
+    footer{text-align:center;background:var(--navy);color:#eaf4fa;padding:22px 6%}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.cards{grid-template-columns:1fr}.hero-art{display:none}header{align-items:flex-start}nav{gap:12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">💻 MASTER COMPUTER</div>
+    <nav aria-label="मुख्य मेन्यू">
+      <a href="#home">होम</a><a href="#courses">कोर्स</a><a href="#about">हमारे बारे में</a><a href="#contact">संपर्क</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <h1>कंप्यूटर सीखें, अपना भविष्य बेहतर बनाएँ!</h1>
+        <p>Master Computer में Basic Computer, MS Office, Tally और डिजिटल स्किल्स की शुरुआत आसान हिंदी में करें।</p>
+        <a class="btn" href="#courses">कोर्स देखें</a>
+        <a class="btn alt" href="#contact">संपर्क करें</a>
+      </div>
+      <div class="hero-art"><div class="emoji">🖥️</div><h2>Learn • Practice • Grow</h2><p>सीखना शुरू करें — आज से!</p></div>
+    </section>
+
+    <section id="courses">
+      <h2 class="section-title">हमारे कोर्स</h2>
+      <p class="sub">अपनी जरूरत के अनुसार कंप्यूटर स्किल्स सीखें। कोर्स की अवधि और फीस की जानकारी के लिए संपर्क करें।</p>
+      <div class="cards">
+        <article class="card"><div class="icon">⌨️</div><h3>Basic Computer</h3><p>कंप्यूटर का परिचय, Windows, फाइल और फोल्डर, इंटरनेट और टाइपिंग की मूल बातें।</p></article>
+        <article class="card"><div class="icon">📄</div><h3>MS Word</h3><p>डॉक्यूमेंट बनाना, फॉर्मेटिंग, टेबल, पेज सेटअप और प्रिंट करना सीखें।</p></article>
+        <article class="card"><div class="icon">📊</div><h3>MS Excel</h3><p>स्प्रेडशीट, फॉर्मूला, फंक्शन, चार्ट और डेटा व्यवस्थित करना सीखें।</p></article>
+        <article class="card"><div class="icon">📽️</div><h3>PowerPoint</h3><p>प्रेजेंटेशन, स्लाइड डिजाइन, ट्रांजिशन और एनिमेशन बनाना सीखें।</p></article>
+        <article class="card"><div class="icon">🧾</div><h3>Tally</h3><p>अकाउंटिंग की शुरुआती जानकारी, कंपनी बनाना और लेन-देन की एंट्री सीखें।</p></article>
+        <article class="card"><div class="icon">🌐</div><h3>Internet & Digital Skills</h3><p>ईमेल, ऑनलाइन फॉर्म, सुरक्षित ब्राउज़िंग और जरूरी डिजिटल काम सीखें।</p></article>
+      </div>
+    </section>
+
+    <section class="soft" id="about">
+      <div class="about">
+        <h2 class="section-title">Master Computer के बारे में</h2>
+        <p>हमारा उद्देश्य कंप्यूटर शिक्षा को सरल और उपयोगी तरीके से उपलब्ध कराना है। यहाँ विद्यार्थी कंप्यूटर की बुनियादी जानकारी से लेकर रोजमर्रा में काम आने वाले सॉफ्टवेयर तक सीख सकते हैं।</p>
+        <p><strong>नोट:</strong> इस परिचय को अपने संस्थान/क्लास की सही जानकारी के अनुसार बदलें।</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">हमसे संपर्क करें</h2>
+      <p class="sub">नीचे अपनी जानकारी भरें। यह डेमो फॉर्म अभी संदेश ऑनलाइन नहीं भेजता।</p>
+      <form class="contact" onsubmit="event.preventDefault(); alert('धन्यवाद! यह डेमो फॉर्म है। वेबसाइट पब्लिश करने से पहले अपना WhatsApp नंबर या ईमेल जोड़ें।');">
+        <label for="student">आपका नाम</label><input id="student" name="student" placeholder="अपना नाम लिखें" required>
+        <label for="phone">मोबाइल नंबर</label><input id="phone" name="phone" type="tel" placeholder="मोबाइल नंबर लिखें" required>
+        <label for="message">आप क्या सीखना चाहते हैं?</label><textarea id="message" name="message" rows="4" placeholder="कोर्स या सवाल लिखें"></textarea>
+        <button class="btn" type="submit">भेजें</button>
+      </form>
+    </section>
+  </main>
+  <footer>© 2026 Master Computer. सर्वाधिकार सुरक्षित।</footer>
+</body>
+</html>
